@@ -1,7 +1,7 @@
 {
   "name": "zi-spinner",
   "description": "集成常用spinner效果插件",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "zijun<ziijun2030@gmail.com>",
   "license": "MIT",
   "main": "dist/zi-spinner.js",
