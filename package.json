@@ -13,7 +13,7 @@
   },
   "respository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/zijun2018/ziSpinner.git"
   },
   "dependencies": {
     "vue": "^2.5.11"

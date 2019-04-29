@@ -1,5 +1,5 @@
 /**
- *   @Project:   定义spinner常量
+ *   @Project:   定义SPINNERS常量
  *   @Author:    Zi_Jun
  *   @Email:     <- zijun2030@gmail.com -->
  *   @Date:      2019/4/27 17:09

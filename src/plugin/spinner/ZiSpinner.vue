@@ -1,9 +1,10 @@
 /**
-*   @Project:   zi-spinner主
+*   @Project:   zi-spinner插件
 *   @Author:    Zi_Jun
 *   @Email:     <- zijun2030@gmail.com -->
 *   @Date:      2019/4/28 17:59
-*   @Note:
+*   @Note:      1) 1.0.x版本集成了10种spinner加载效果
+*               2) 插件只集成单独图标spinner效果，如有外层蒙层或文字，可外层单独添加
 */
 
 
@@ -13,7 +14,8 @@
          'zi-fade-in': (fadeIn === '' || fadeIn === 'common') && !noFadeIn,
          'zi-fade-in-min': fadeIn === 'min' && !noFadeIn,
          }"
-       class="zi-spinner-box">
+       class="zi-spinner-box"
+       v-if="load.className !== ''">
     <div :class="spinnerName"
          :style="spinnerStyle"
          class="zi-spinner">
@@ -29,7 +31,15 @@
     name: "ziSpinner",
 
     props: {
-      // spinner名称
+      // spinner名称（
+      // circle/
+      // fading-circle/
+      // wave/folding-cube/
+      // three-bounce/
+      // double-bounce/
+      // wandering-cubes/
+      // rotating-plane/
+      // line-spin-fade-loader）
       name: {
         type: String,
         default: 'circle',
@@ -59,11 +69,6 @@
         type: String,
         default: 'min',
       },
-      // 自定义样式
-      className: {
-        type: String,
-        default: '',
-      }
     },
 
     computed: {
@@ -87,7 +92,6 @@
           return SPINNER;
         } else {
           return {
-            className: '',
             divCount: 0
           }
         }

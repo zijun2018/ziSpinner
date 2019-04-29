@@ -1,3 +1,12 @@
+/**
+ *   @Project:   旋转渐变加载样式
+ *   @Author:    Zi_Jun
+ *   @Email:     <- zijun2030@gmail.com -->
+ *   @Date:      2019/4/29 13:58
+ *   @Note:      
+ */
+
+
 .zi-line-spin-fade-loader {
     position: relative;
     top: -10px;
