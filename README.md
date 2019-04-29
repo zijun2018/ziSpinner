@@ -1,6 +1,6 @@
 # zi-spinner
 
-> A Vue.js project
+> 集成常用spinner效果插件
 
 ## Build Setup
 
