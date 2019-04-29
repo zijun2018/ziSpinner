@@ -1,0 +1,28 @@
+/**
+ *   @Project:   基础样式
+ *   @Author:    Zi_Jun
+ *   @Email:     <- zijun2030@gmail.com -->
+ *   @Date:      2019/4/27 15:22
+ *   @Note:
+ */
+
+.zi-spinner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.zi-spinner-box > .zi-spinner {
+    color: #333;
+}
+
+.zi-spinner > div {
+    background-color: currentColor;
+}
+
+
+
+
+

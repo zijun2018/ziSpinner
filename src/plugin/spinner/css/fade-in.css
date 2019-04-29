@@ -1,0 +1,79 @@
+/**
+ *   @Project:   定义淡入时间效果
+ *   @Author:    Zi_Jun
+ *   @Email:     <- zijun2030@gmail.com -->
+ *   @Date:      2019/4/27 17:46
+ *   @Note:
+ */
+
+@-webkit-keyframes zi-fade-in {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes zi-fade-in {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes zi-fade-in {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes zi-fade-in {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.zi-fade-in-max {
+    -webkit-animation: zi-fade-in 2s;
+    -moz-animation: zi-fade-in 2s;
+    -o-animation: zi-fade-in 2s;
+    -ms-animation: zi-fade-in 2s;
+    animation: zi-fade-in 2s;
+}
+
+.zi-fade-in {
+    -webkit-animation: zi-fade-in 1s;
+    -moz-animation: zi-fade-in 1s;
+    -o-animation: zi-fade-in 1s;
+    -ms-animation: zi-fade-in 1s;
+    animation: zi-fade-in 1s;
+}
+
+.zi-fade-in-min {
+    -webkit-animation: zi-fade-in 0.5s;
+    -moz-animation: zi-fade-in 0.5s;
+    -o-animation: zi-fade-in 0.5s;
+    -ms-animation: zi-fade-in 0.5s;
+    animation: zi-fade-in 0.5s;
+}

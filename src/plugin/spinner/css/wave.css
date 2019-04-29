@@ -1,0 +1,80 @@
+/**
+ *   @Project:   水波效果样式
+ *   @Author:    Zi_Jun
+ *   @Email:     <- zijun2030@gmail.com -->
+ *   @Date:      2019/4/28 10:05
+ *   @Note:      wave效果最多可支持8个，需要扩展，可在此样式中扩展
+ */
+
+.zi-wave {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.zi-wave > div {
+    background-color: currentColor;
+    height: 100%;
+    width: 6px;
+    margin: 0 3px 0 0;
+    display: inline-block;
+
+    -webkit-animation: zi-stretchdelay 1.2s infinite ease-in-out;
+    animation: zi-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.zi-wave > div:nth-child(2) {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.zi-wave > div:nth-child(3) {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.zi-wave > div:nth-child(4) {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.zi-wave > div:nth-child(5) {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+.zi-wave > div:nth-child(6) {
+    -webkit-animation-delay: -0.7s;
+    animation-delay: -0.7s;
+}
+
+.zi-wave > div:nth-child(7) {
+    -webkit-animation-delay: -0.6s;
+    animation-delay: -0.6s;
+}
+
+.zi-wave > div:nth-child(8) {
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+
+@-webkit-keyframes zi-stretchdelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4)
+    }
+    20% {
+        -webkit-transform: scaleY(1.0)
+    }
+}
+
+@keyframes zi-stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
